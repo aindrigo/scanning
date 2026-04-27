@@ -1,9 +1,9 @@
-#include "symbolfinder.hpp"
-#include "platform.hpp"
+#include "scanning/symbolfinder.hpp"
+#include "scanning/platform.hpp"
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <Windows.h>
+#include <windows.h>
 
 struct DynLibInfo
 {

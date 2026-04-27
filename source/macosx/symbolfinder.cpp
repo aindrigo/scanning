@@ -1,5 +1,5 @@
-#include "symbolfinder.hpp"
-#include "platform.hpp"
+#include "scanning/symbolfinder.hpp"
+#include "scanning/platform.hpp"
 
 #include <CoreServices/CoreServices.h>
 #include <mach/task.h>

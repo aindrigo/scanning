@@ -1,5 +1,5 @@
-#include "symbolfinder.hpp"
-#include "platform.hpp"
+#include "scanning/symbolfinder.hpp"
+#include "scanning/platform.hpp"
 
 #include <sys/stat.h>
 #include <fcntl.h>
