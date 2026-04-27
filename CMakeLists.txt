@@ -13,4 +13,5 @@ elseif(APPLE)
 endif()
 
 add_library(scanning STATIC ${SCANNING_SOURCES})
+set_target_properties(scanning PROPERTIES POSITION_INDEPENDENT_CODE ON)
 target_include_directories(scanning PUBLIC include)
